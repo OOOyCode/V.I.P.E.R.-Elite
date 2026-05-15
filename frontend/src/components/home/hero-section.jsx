@@ -1,4 +1,3 @@
-
 import { motion, useMotionValue, useTransform, useSpring } from "framer-motion";
 import { useLanguage } from "@/lib/language-context";
 import { OrganicButton } from "@/components/ui/organic-button";
@@ -200,41 +199,6 @@ export function HeroSection() {
               Our Story
             </OrganicButton>
           </Link>
-        </motion.div>
-        <motion.div
-          initial={{
-            opacity: 0,
-          }}
-          animate={{
-            opacity: 1,
-          }}
-          transition={{
-            delay: 1.5,
-          }}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2"
-        >
-          <motion.div
-            animate={{
-              y: [0, 10, 0],
-            }}
-            transition={{
-              duration: 2,
-              repeat: Infinity,
-            }}
-            className="w-6 h-10 border-2 border-gold/50 rounded-full p-1"
-          >
-            <motion.div
-              animate={{
-                y: [0, 16, 0],
-                opacity: [1, 0.5, 1],
-              }}
-              transition={{
-                duration: 2,
-                repeat: Infinity,
-              }}
-              className="w-2 h-2 bg-gold rounded-full mx-auto"
-            />
-          </motion.div>
         </motion.div>
       </div>
     </section>

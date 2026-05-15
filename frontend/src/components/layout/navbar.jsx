@@ -176,7 +176,7 @@ export function Navbar() {
                       fontFamily: "var(--font-display)",
                     }}
                   >
-                    VIPER ELITE
+                    IPER ELITE
                   </motion.span>
                 </motion.div>
                 <motion.div
